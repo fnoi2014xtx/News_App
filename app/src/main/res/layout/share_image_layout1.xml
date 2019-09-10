@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="720px"
+    android:layout_height="680px"
+    android:id="@+id/layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季"
+        android:gravity="center"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        android:maxLines="2"
+        android:background="#fff"
+        android:id="@+id/title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#777"
+        android:text="大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季大约在冬季"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:textSize="40px"
+        android:maxLines="6"
+        android:textStyle="italic"
+        android:id="@+id/summary"
+        android:background="#FFF"
+        android:ellipsize="end"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/icon"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150px"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="扫描二维码了解更多"
+            android:textColor="#ffffff"
+            android:textSize="40px" />
+
+        <com.java.xtxnews.QRImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/qrcode" />
+    </LinearLayout>
+
+</LinearLayout>

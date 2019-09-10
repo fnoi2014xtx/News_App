@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChannelSideActivity"
+    android:orientation="horizontal"
+    android:background="#50000000">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_background"
+        android:tag="skin:side_background:background"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <!--View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/-->
+        <com.java.xtxnews.CircleImageView
+            android:layout_margin="60dp"
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/side_background"
+            android:tag="skin:side_background:background"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered by Xtx and Syb!"
+            android:textSize="7pt"
+            android:paddingTop="30dp"
+            android:textColor="@color/SideTip"
+            android:tag="skin:SideTip:textColor"/>
+    </LinearLayout>
+
+
+
+    <View
+        android:id="@+id/transparent_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        />
+</LinearLayout>

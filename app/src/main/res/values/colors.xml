@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="NewsListTitle">#787878</color>
+    <color name="NewsListTitleCached">#aaa</color>
+    <color name="NewsListSummary">#787878</color>
+    <color name="NewsListFootnote">#787878</color>
+    <color name="TextFont">#000000</color>
+    <color name="SearchText">#9b9b9b</color>
+    <color name="SearchBackground">#ffffff</color>
+    <color name="Keyword">#000</color>
+    <color name="SideTip">#aaa</color>
+    <color name="SideText">#ddd</color>
+
+    <color name="TextFont_dark">#9C9C9C</color>
+    <color name="Keyword_dark">#FFF</color>
+    <color name="SideTip_dark">#777</color>
+    <color name="SideText_dark">#fff</color>
+</resources>

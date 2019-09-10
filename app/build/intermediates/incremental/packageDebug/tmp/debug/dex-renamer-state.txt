@@ -1,0 +1,4 @@
+#Fri Sep 06 16:44:29 GMT+08:00 2019
+base.0=C\:\\codes\\MaybeTheLastNews\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

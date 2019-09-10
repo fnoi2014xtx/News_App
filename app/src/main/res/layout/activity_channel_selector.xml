@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChannelActivity"
+    android:background="@drawable/grid_background"
+    android:tag="skin:grid_background:background"
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/subscribe_main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="14.0dip" >
+
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:text="选中内容"
+                android:textColor="@color/TextFont"
+                android:tag="skin:TextFont:textColor"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/text_seperate_line"
+                android:tag="skin:text_seperate_line:background" />
+
+            <com.java.xtxnews.KeyWordGridView
+                android:id="@+id/userGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="3dp" />
+
+
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:text="待选内容"
+                android:textColor="@color/TextFont"
+                android:tag="skin:TextFont:textColor"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/text_seperate_line"
+                android:tag="skin:text_seperate_line:background"/>
+
+
+            <com.java.xtxnews.KeyWordGridView
+                android:id="@+id/otherGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="3dp" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/channel_selector_confirm"
+        android:textSize="20sp"
+        android:text="确认"/>
+</RelativeLayout>

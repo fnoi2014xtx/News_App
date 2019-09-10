@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.java.xtxnews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:43:5-67
+11-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:43:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:44:5-81
+12-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:44:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:46:5-79
+13-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:46:22-76
+14
+15    <application
+15-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:5:5-42:19
+16        android:name="com.java.xtxnews.NewsApplication"
+16-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:6:9-40
+17        android:allowBackup="true"
+17-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\天行\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:9:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:10:9-54
+23        android:supportsRtl="true"
+23-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:11:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:12:9-40
+26        android:usesCleartextTraffic="true" >
+26-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:13:9-44
+27        <activity
+27-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:14:9-16:74
+28            android:name="com.java.xtxnews.ChannelSideActivity"
+28-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:15:13-48
+29            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+29-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:16:13-72
+30        <activity android:name="com.java.xtxnews.TextActivity" />
+30-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:17:9-50
+30-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:17:19-47
+31        <activity android:name="com.java.xtxnews.SearchActivity" />
+31-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:18:9-52
+31-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:18:19-49
+32        <activity
+32-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:19:9-21:75
+33            android:name="com.java.xtxnews.BlockActivity"
+33-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:20:13-42
+34            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+34-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:21:13-72
+35        <activity android:name="com.java.xtxnews.ChannelActivity" />
+35-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:22:9-53
+35-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:22:19-50
+36        <activity
+36-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:23:9-31:20
+37            android:name="com.java.xtxnews.MainActivity"
+37-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:24:13-41
+38            android:label="@string/app_name" >
+38-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:25:13-45
+39            <intent-filter>
+39-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:27:17-69
+40-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:29:17-77
+42-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:33:9-41:20
+47            android:name="androidx.core.content.FileProvider"
+47-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:34:13-62
+48            android:authorities="com.java.xtxnews.fileprovider"
+48-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:35:13-64
+49            android:exported="false"
+49-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:36:13-37
+50            android:grantUriPermissions="true" >
+50-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:37:13-47
+51            <meta-data
+51-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:38:13-40:58
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:39:17-67
+53                android:resource="@xml/provider_paths" />
+53-->C:\codes\MaybeTheLastNews\app\src\main\AndroidManifest.xml:40:17-55
+54        </provider>
+55    </application>
+56
+57</manifest>

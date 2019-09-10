@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:gravity="center">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_shape"
+        android:tag="skin:item_shape:background"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="屌丝男士"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/Keyword"
+            android:tag="skin:Keyword:textColor"
+            />
+    </LinearLayout>
+</RelativeLayout>
+
+
+</LinearLayout>
